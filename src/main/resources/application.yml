@@ -1,0 +1,16 @@
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:33060/kinesisdmp?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=TRUE&useSSL=false
+        username: homestead
+        password: secret
+    batch:
+        job:
+            enabled: false
+    jpa:
+        show-sql: false
+
+logging:
+    level: debug
+
+server:
+    port: 8084
